@@ -11,7 +11,6 @@ import { AccountService } from './_services/account.service';
 })
 export class AppComponent implements OnInit{
   title = 'The Dating app';
-  users: any;
 
   constructor(private accountService: AccountService) { }
 
